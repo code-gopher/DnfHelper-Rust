@@ -1,41 +1,35 @@
+```
+# Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
-*.iml
-*.ipr
+# Dependencies
+Cargo.lock
+**/target/
+**/Cargo.lock
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+# Environment
+.env
+.env.local
+.env.*
 
-### VS Code ###
+# Editors
 .vscode/
+.idea/
+*.swp
+*.swo
 
-### Mac OS ###
-.DS_Store
-.idea
-!src/main/resources/helper.ini
-helper.ini
+# Rust-specific
+**/*.rs.bk
+```
