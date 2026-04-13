@@ -7,22 +7,14 @@
 *.so
 *.a
 *.out
-target/
 
 # Dependencies
-Cargo.lock
+target/
 **/target/
-**/Cargo.lock
 
 # Logs and temp files
 *.log
 *.tmp
-*.swp
-
-# Environment
-.env
-.env.local
-.env.*
 
 # Editors
 .vscode/
@@ -30,6 +22,17 @@ Cargo.lock
 *.swp
 *.swo
 
+# Environment
+.env
+.env.local
+*.env.*
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
 # Rust-specific
-**/*.rs.bk
+Cargo.lock
+**/Cargo.lock
 ```

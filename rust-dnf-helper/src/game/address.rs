@@ -58,6 +58,18 @@ impl Address {
     /// 完成任​​务 CALL 地址
     pub const FINISH_TASK_CALL_ADDR: usize = 0x00EF0123;
     
+    /// 城镇瞬移 CALL 地址
+    pub const TOWN_TELEPORT_ADDR: usize = 0x00F01234;
+    
+    /// 普通攻击 CALL 地址
+    pub const NORMAL_ATTACK_ADDR: usize = 0x01012345;
+    
+    /// 捡取物品 CALL 地址
+    pub const PICK_ITEM_ADDR: usize = 0x01123456;
+    
+    /// 漂移过图 CALL 地址
+    pub const DRIFT_PASS_MAP_ADDR: usize = 0x00BCDEF0;
+    
     // ==================== 偏移地址 ====================
     
     /// 城镇瞬移 RDX 地址
